@@ -20,7 +20,7 @@ export default function Task2() {
     setMarks(copyMarks)
    }
      return (
-       <div className="containers my-5">
+       <div className="container my-5">
       <nav className="navbar bg-body-tertiary">
           <div className="container-fluid">
             <span className="navbar-brand mb-0 h1">
