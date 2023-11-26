@@ -1,0 +1,43 @@
+.imp-text {
+    color:blue;
+    background-color: aqua;
+}
+
+ .containers{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 18px; */
+    /* flex-wrap: wrap; */
+     /* flex-direction: row;  */
+
+     text-align: center;
+     
+ }
+
+ .containers button{
+padding: 10px 60px;
+font-weight: 800;
+font-size: x-large;
+border: none;
+border-radius: 10px;
+/* background-color: red; */
+margin: 1px 0;
+}
+
+.containers b{
+    /* background-color: black; */
+    padding: 10px 40px;
+    border: 2px solid rgb(1, 2, 1);
+    font-size: x-large;
+}
+
+.containers button.plus{
+    background-color: green;
+}
+.containers button.minus{
+background-color: red;
+}
+
+
+

@@ -1,0 +1,33 @@
+.imp-text {
+    color:blue;
+    background-color: aqua;
+}
+
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+     flex-direction: row; 
+
+     /* text-align: center; */
+ }
+
+.widgets{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.widgets button{
+    border: none;
+}
+
+
+.widgets img{
+    width: 120px;
+    border: 1px solid black;
+}
