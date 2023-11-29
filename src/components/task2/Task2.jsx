@@ -32,7 +32,17 @@ export default function Task2() {
          
          return (
            <div key={i}>
-           <button className="plus" onClick={(e)=> decrease(i)} > - </button> <b style={{color: m>=50 ? 'green' : 'red'}}> {m}</b> <button className="minus" onClick={(e) => increase(i)} > + </button>
+           <button 
+           className="btn minus" 
+           onClick={(e)=> decrease(i)} >
+             -
+              </button> 
+           <b style={{color: m>=50 ? 'green' : 'red'}}> {m}</b>
+            <button
+             className="btn plus"
+              onClick={(e) => increase(i)} >
+                 +
+                  </button>
            </div>
          )
         
